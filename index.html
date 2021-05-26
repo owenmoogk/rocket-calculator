@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<title>Model Rocket Physics</title>
+
+	<link rel="stylesheet" href="index.css">
+	<link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+
+	<script src="js/calculations.js"></script>
+
+</head>
+
+<body onload="convertXmlToJson(); addGithubCorner()">
+
+	<div id="title">
+		Rocket Calculator
+	</div>
+
+	<div id="description">
+		Physics calculator for model rockets, including apogee, acceleration, velocity, and more! Check it out on 
+		<a href="https://github.com/owenmoogk/rocket-calculator">Github</a>!
+		<br><br>
+	</div>
+	
+	<div id='main'>
+
+		<div id="inputs">
+			<table>
+				<tr>
+					<td>Mass (kg)</td>
+					<td><input type="text" id="mass"></td>
+				</tr>
+				<tr>
+					<td>Thrust (n)</td>
+					<td><input type="text" id="thrust"></td>
+				</tr>
+				<tr>
+					<td>Burn Time (s)</td>
+					<td><input type="text" id="burn-time"></td>
+				</tr>
+			</table>
+			<br>
+			<button onclick="calculate()" id="xmlCopyButton">Submit</button>
+			<h2 id="error"></h2>
+		</div>
+
+		<div id="outputs">
+			<table>
+				<tr>
+					<td>Gravitational Force</td>
+					<td id="gravitational-force"></td>
+				</tr>
+				<tr>
+					<td>Net Force (during burn)</td>
+					<td id="net-force"></td>
+				</tr>
+				<tr>
+					<td>Acceleration</td>
+					<td id="acceleration"></td>
+				</tr>
+				<tr>
+					<td>Max-Q</td>
+					<td id="burn-velocity"></td>
+				</tr>
+				<tr>
+					<td>Burn Distance</td>
+					<td id="burn-distance"></td>
+				</tr>
+				<tr>
+					<td>Coast Distance</td>
+					<td id="coast-distance"></td>
+				</tr>
+				<tr>
+					<td>Apogee</td>
+					<td id="apogee"></td>
+				</tr>
+				<tr>
+					<td>Time to Apogee</td>
+					<td id="time-to-apogee"></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+
+</body>
+
+</html>
