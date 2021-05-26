@@ -42,12 +42,14 @@ a {
 	place-items: center;
 }
 
-td{
+td {
 	padding: 10px;
 }
-#error{
+
+#error {
 	text-align: center;
 }
+
 button {
 	background-color: pink;
 	border: none;
@@ -56,9 +58,10 @@ button {
 	border-radius: 30px;
 	width: 100px;
 	font-size: 20px;
+	cursor: pointer
 }
 
-input{
+input {
 	background-color: rgb(30, 30, 30);
 	font-size: 20px;
 	border: none;
@@ -67,12 +70,6 @@ input{
 	outline: none;
 	resize: none;
 	padding: 10px;
-}
-
-select {
-	background-color: white;
-	border: 5px solid pink;
-	outline: none;
 }
 
 * {
