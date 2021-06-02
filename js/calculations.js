@@ -35,7 +35,7 @@ function calculate() {
 	document.getElementById("acceleration").innerText = Number((accel).toFixed(3))+"m/s^2"
 	document.getElementById("burn-velocity").innerText = Number((burnVel).toFixed(3))+"m/s"
 	document.getElementById("burn-distance").innerText = Number((burnDist).toFixed(3))+"m"
-	document.getElementById("coast-distance").innerText = Number((coastDist).toFixed(3))+"n"
+	document.getElementById("coast-distance").innerText = Number((coastDist).toFixed(3))+"m"
 	document.getElementById("apogee").innerText = Number((apogee).toFixed(3))+"m"
 	document.getElementById("time-to-apogee").innerText = Number((timeToApogee).toFixed(3))+"s"
 
