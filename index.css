@@ -1,8 +1,6 @@
 body {
 	height: 100vh;
 	margin: 0;
-	background-color: black;
-	color: white;
 }
 
 #main {
@@ -16,10 +14,12 @@ body {
 #title {
 	font-size: 50px;
 	font-weight: bold;
-	margin: auto;
+	margin: 30px auto 20px;
 	text-align: center;
-	padding-top: 30px;
-	padding-bottom: 20px;
+	width: fit-content;
+	border-bottom: 20px solid lightgray;
+	line-height: 10px;
+	font-style: italic;
 }
 
 #description {
@@ -51,7 +51,7 @@ td {
 }
 
 button {
-	background-color: pink;
+	background-color: grey;
 	border: none;
 	outline: none;
 	padding: 10px;
@@ -62,10 +62,10 @@ button {
 }
 
 input {
-	background-color: rgb(30, 30, 30);
+	background-color: lightgrey;
 	font-size: 20px;
 	border: none;
-	border-bottom: 2px solid pink;
+	border-bottom: 2px solid grey;
 	color: white;
 	outline: none;
 	resize: none;
